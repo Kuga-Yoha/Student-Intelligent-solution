@@ -1,3 +1,4 @@
+import Prediction from "../Prediction";
 import styles from "./styles.module.css";
 
 const Main = () => {
@@ -13,7 +14,11 @@ const Main = () => {
 				<button className={styles.white_btn} onClick={handleLogout}>
 					Logout
 				</button>
+
+				
+
 			</nav>
+			<Prediction></Prediction>
 		</div>
 	);
 };
