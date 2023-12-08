@@ -30,7 +30,7 @@
 .form_container {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: baseline;
 }
 
 .form_container h1 {
@@ -45,7 +45,7 @@
 	padding: 15px;
 	border-radius: 10px;
 	background-color: #edf5f3;
-	margin: 5px 0;
+	margin: 5px 30px;
 	font-size: 14px;
 }
 
